@@ -10,7 +10,7 @@ programa
 		valor_total_vista = 0.0
 		valor_total_prazo = 0.0
 
-		para(inteiro i = 0; i < 3; i++) {
+		para(inteiro i = 0; i < 15; i++) {
 			escreva("Digite o código (V para à vista, P para a prazo) da transação ", i+1, ": ")
 			leia(codigo)
 			escreva("Digite o valor da transação ", i+1, ": ")
@@ -46,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 256; 
+ * @POSICAO-CURSOR = 252; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
